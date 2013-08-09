@@ -1,0 +1,30 @@
+brew update && brew upgrade
+brew tap phinze/homebrew-cask
+
+brew install brew-cask
+brew install ssh-copy-id
+brew install mtr --no-gtk && sudo chown root:wheel /usr/local/Cellar/mtr/0.82/sbin/mtr && sudo chmod u+s /usr/local/Cellar/mtr/0.82/sbin/mtr
+brew install git
+brew install wget --enable-iri
+brew install csshx
+brew install mobile-shell
+
+#Casks
+
+brew cask install alfred
+brew cask install cord
+brew cask install dropbox
+brew cask install evernote
+brew cask install f-lux
+brew cask install firefox
+brew cask install google-chrome
+brew cask install istat-menus
+brew cask install iterm2
+brew cask install the-unarchiver
+brew cask install totalspaces
+brew cask install tower
+brew cask install transmit
+brew cask install one-password
+brew cask install spotify
+brew cask install vlc
+brew cask install sublime-text
