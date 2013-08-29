@@ -1,7 +1,8 @@
-home	=	 ns log web test bast mon
+home	=	 ns log web test bast mon back
 ns			= rs-ns0[1-2].home.rockstable.net
 log 		= rs-logs01.home.rockstable.net rs-weblog01.home.rockstable.net
 web			= rs-web01.home.rockstable.net
 test		= rs-test0[1-2].home.rockstable.net
 bast		= rs-bast01.home.rockstable.net
 mon			= rs-monitoring01.home.rockstable.net
+back		= rs-rancid01.home.rockstable.net
